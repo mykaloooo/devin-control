@@ -6,7 +6,7 @@
 
 | 集成 | 源账号状态 | 新账号需要做什么 |
 | --- | --- | --- |
-| GitHub | ✅ 已安装 | 新账号重新授权；确保对 `mykaloooo/2026IP` 和 `mykaloooo/devin-control` 都有读写权限 |
+| GitHub | ✅ 已安装 | 新账号重新授权；把 Devin App 装到 `kaka-media` 组织上（组织 → Settings → GitHub Apps），确保对 `kaka-media/2026IP` 和 `kaka-media/devin-control` 都有读写权限 |
 | GitLab / Bitbucket / Azure DevOps | 未安装 | 无需处理 |
 | Jira / Linear / Slack / Microsoft Teams | 未安装 | 无需处理 |
 
@@ -22,4 +22,4 @@
 
 - 源账号 **Devin Secrets 为空**（`list_secrets` 返回 0 条）。
 - 单仓方案下**不再需要** GitHub Actions Secret `MYKALOOOO_MIRROR_TOKEN`（镜像已停用，可删除）。
-- 两账号协作改为：在 `mykaloooo/2026IP` 把 `carolfrederic4-arch` 加为协作者（无需任何跨仓 Token）。
+- 两账号协作改为：在 `kaka-media` 组织建团队(Team)，把 `carolfrederic4-arch` 加进团队并批量授予仓库 Write 权限（无需任何跨仓 Token，多仓一次性授权）。
