@@ -25,11 +25,11 @@ devin-control/
 └── integrations.md               # 集成 / Secrets 清单
 ```
 
-## 仓库架构（2026-06-22 起：单仓）
+## 仓库架构（2026-06-22 起：单仓 + 组织）
 
-- **唯一主仓 = `mykaloooo/2026IP`**（项目内容）；另一账号 `carolfrederic4-arch` 以协作者身份共用。
-- **本仓 `mykaloooo/devin-control`** 只放 Devin 配置 / 接力包，不放项目内容。
-- 已弃用早期「双账号镜像」，不再需要 `MYKALOOOO_MIRROR_TOKEN`。
+- **唯一主仓 = `kaka-media/2026IP`**（项目内容），归 `kaka-media` 组织所有；另一账号 `carolfrederic4-arch` 通过组织团队成员身份共用（团队批量授权）。
+- **本仓 `kaka-media/devin-control`** 只放 Devin 配置 / 接力包，不放项目内容。
+- 已弃用早期「双账号镜像」，不再需要 `MYKALOOOO_MIRROR_TOKEN`；仓已迁入 `kaka-media` 组织统一管理。
 
 ## 导出快照（2026-06-22）
 
